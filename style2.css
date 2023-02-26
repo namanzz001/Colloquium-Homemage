@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+}
+
+
+.navbar{
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    padding: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(83, 83, 83);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0.3vh 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.09);
+    backdrop-filter: blur(3px) saturate(200%);
+
+}
+
+header .logo
+{
+    position: relative;
+    max-width: 30vh;
+}
+
+header ul
+{
+    position: relative;
+    display: flex;
+}
+
+header ul li a
+{
+    padding: 1vh;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin-left: 5vh;
+    text-decoration: none;
+}
+
+header ul li a:hover
+{
+    border-radius: 5vh;
+    transition: all 0.3s ease 0s;
+    box-shadow: -1px -1px 3px 2px rgba(255, 255, 255, 0.265),1px 1px 8px 1px rgba(0, 0, 0, 1);
+    color: #fff;
+}
+
+.homepage{
+    border-style: solid;
+    height: 90vh;
+    background-color: black;
+  }
+
+.mainimg{
+    opacity: 0.15;
+    width: 98.5vw;
+    height: 88vh;
+  }
+
+  .logo1{
+    margin-top: -95vh;
+    margin-bottom: 95vh;
+    margin-left: 30.5vw;
+    width: 40%;
+  }
+  
+.date{
+    font-family: courier;
+    margin-top: -95vh;
+    margin-left: 36vw;
+    margin-right: 36vw;
+    text-align: center;
+    font-size: small;
+    color: white;
+  } 
+
+  .register{
+    margin-left: 45vw;
+    margin-right: 45vw;
+    margin-top: 20vh;
+  }
+
+  .details{
+    border-style: solid;
+    background-color: black;
+    height: 120vh;
+  }
+
+  .headingevent{
+    color: white;
+    font-family:  Courier;
+    margin-top: 10vh;
+    margin-left: 3.4vw;
+  }
+  .paraevent{
+    color: white;
+    margin-left: 3.4vw;
+    margin-right: 3.4vw;
+    text-align: justify;
+    font-size: large;
+  }
+  .headingtiet{
+    color: white;
+    font-family:  Courier;
+    margin-left: 3.4vw;
+    margin-top: 13vh;
+  }
+  
+  .paratiet{
+    color: white;
+    margin-left: 3.4vw;
+    margin-right: 3.4vw;
+    text-align: justify;
+    font-size: large;
+  }
+
+  .headingiste{
+    color: white;
+    font-family:  Courier;
+    margin-left: 3.4vw;
+    margin-top: 13vh;
+  }
+  .paraiste{
+    color: white;
+    margin-left: 3.4vw;
+    margin-right: 3.4vw;
+    text-align: justify;
+    font-size: large;
+  }
